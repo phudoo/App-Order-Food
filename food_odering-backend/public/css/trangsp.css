@@ -1,0 +1,76 @@
+  /* Tạo background tối như trong style của bạn */
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1f1f1f;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+/* Nút thêm sản phẩm */
+a.btn, button.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 10px 0;
+    transition: background 0.3s;
+}
+
+a.btn:hover, button.btn:hover {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c);
+}
+
+/* Style cho bảng sản phẩm */
+table {
+    width: 80%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #333;
+}
+
+table th {
+    background-color: #333;
+}
+
+table tr:nth-child(even) {
+    background-color: #2c2c2c;
+}
+
+/* Nút xóa trong bảng */
+button.delete-btn {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c);
+    cursor: pointer;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+}
+
+button.delete-btn:hover {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+}
+
+/* Style cho các liên kết trong bảng */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}

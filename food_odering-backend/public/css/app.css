@@ -1,0 +1,193 @@
+/* Giữ phong cách tối giản */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1f1f1f;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+/* Style form thêm sản phẩm */
+#addForm, #editForm, #loginForm {
+    background: rgba(255, 255, 255, 0.1); 
+    padding: 40px;
+    border-radius: 12px; 
+    -webkit-backdrop-filter: blur(10px); 
+            backdrop-filter: blur(10px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    width: 320px;
+    text-align: center;
+}
+
+/* Tiêu đề */
+h1 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Label */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ccc;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Input text và number */
+input[type="text"], input[type="number"], #loginForm input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Nút thêm sản phẩm, Nút cập nhật sản phẩm và Nút login */
+button.btn, #loginForm button {
+    padding: 12px;
+    width: 100%;
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+button.btn:hover, #loginForm button:hover {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c);
+}
+
+/* Nút xóa trong bảng */
+button.delete-btn {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c);
+    cursor: pointer;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+}
+
+button.delete-btn:hover {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+}
+
+/* Style cho các liên kết trong bảng */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style cho bảng sản phẩm */
+table {
+    width: 80%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #333;
+}
+
+table th {
+    background-color: #333;
+}
+
+table tr:nth-child(even) {
+    background-color: #2c2c2c;
+}
+
+/* Tạo background tối như trong style của bạn */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1f1f1f;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    overflow: hidden; 
+    position: relative; 
+}
+
+/* form màu tối thui thùi lùi */
+#loginForm {
+    background: rgba(255, 255, 255, 0.1); /* Nền mờ kiểu kính mờ sang trọng */
+    padding: 40px; 
+    border-radius: 12px; /* Góc bo tròn mượt mà như vòng ôm của gió */
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px); /* Hiệu ứng mờ huyền ảo */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Bóng đổ như từ cõi khác */
+    position: relative;
+    z-index: 2; 
+    width: 320px; 
+    text-align: center; 
+    color: #fff; 
+}
+
+/* Tiêu đề oách xà lách */
+#loginForm h2 {
+    margin-bottom: 20px; 
+    color: #fff; /* Chữ sáng trong bầu trời đêm */
+}
+
+/* Nhãn cho các trường nhập liệu */
+#loginForm label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ccc;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Các trường input trong form login */
+#loginForm input {
+    width: 100%; 
+    padding: 12px;
+    margin-bottom: 20px; 
+    border: none;
+    border-radius: 8px; 
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: #fff;
+    font-size: 16px; 
+    outline: none;
+}
+
+/* Nút đăng nhập */
+#loginForm button {
+    padding: 12px; 
+    width: 100%;
+    background: linear-gradient(135deg, #ff416c, #ff4b2b); 
+    color: white;
+    border: none; 
+    cursor: pointer; 
+    border-radius: 8px;
+    font-size: 18px; 
+    font-weight: bold; 
+    transition: background 0.3s; 
+}
+
+#loginForm button:hover {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c); 
+}
+
